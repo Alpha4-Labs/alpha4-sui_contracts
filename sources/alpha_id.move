@@ -95,7 +95,7 @@ module alpha4::alpha_id {
     }
 
     /// Represents a linked external blockchain account
-    struct LinkedAccount has store {
+    struct LinkedAccount has store, drop {
         /// Address on the external chain
         address: String,
         /// Whether the account ownership has been verified

@@ -1,0 +1,11 @@
+[package]
+name = "alpha4"
+version = "0.1.0"
+published-at = ""
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+alpha4 = "0x0"
+sui = "0x2"
